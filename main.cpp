@@ -1,17 +1,18 @@
+// Ronald Chavarría Bolaños
+// Randall 
+// practica 3 
+
 #include <iostream>
 using namespace std;
 int cant=0;
-struct tipo{
+struct tipo{  //se crea una estructura en la cual se va realizar los 
   string device;
+  string tipo;
   float consumo;
   float tiempo;
+  
 }; 
 
-struct iot {
-  string dispositivo;
-  struct tipo;
-  float consumo;
-};
 
 
 
@@ -23,7 +24,7 @@ int main() {
   float tiempo1=0.0;
   cout<< "Digite la cantidad de disositivos IOT que posee"<<endl;  
   cin>>cant;
-  struct iot aparato[cant];
+  struct tipo aparato[cant];
   for(int cant1=0;cant1<cant;cant1++){
     cout<<"Digite el nombre del dispositivo: "<<endl;
     cin>>disp1;
