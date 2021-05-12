@@ -34,11 +34,11 @@ int main() {
     
     cout<<"Digite el nombre del dispositivo: "<<endl;
     getline(cin,iot[cant1].device);
-    cout<<iot[cant1].device<<endl;
+    
     
     cout<<"Digite el nombre del tipo: "<<endl;
     getline(cin,iot[cant1].tipo);
-    cout<<iot[cant1].tipo<<endl;
+    
     
 
 
